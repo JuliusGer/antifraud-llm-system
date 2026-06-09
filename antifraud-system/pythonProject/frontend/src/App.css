@@ -1,0 +1,27 @@
+/* index.css или App.css - ИСПРАВЛЕННАЯ ВЕРСИЯ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  margin: 0;        /* ← ДОБАВИТЬ: явный сброс margin */
+  padding: 0;       /* ← ДОБАВИТЬ: явный сброс padding */
+  background: #f0f2f5; /* ← ДОБАВИТЬ: фон на весь экран */
+}
+
+.ant-card-body {
+  padding: 12px !important;
+}
+
+.ant-table {
+  font-size: 12px;
+}
+
+.ant-table-tbody > tr > td {
+  padding: 6px 8px !important;
+}
